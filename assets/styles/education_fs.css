@@ -1,0 +1,430 @@
+.banner_daotao {
+  position: relative;
+  font-family: 'Lato', sans-serif; }
+  .banner_daotao .context_datao {
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    right: 0px;
+    top: 27%;
+    text-align: center;
+    color: #fff; }
+    .banner_daotao .context_datao h3 {
+      font-size: 22px; }
+    .banner_daotao .context_datao h4 {
+      font-size: 18px;
+      margin-top: 10px; }
+    .banner_daotao .context_datao h1 {
+      font-weight: 900;
+      font-size: 2em;
+      margin-top: 15px;
+      font-family: 'Montserrat', sans-serif; }
+  .banner_daotao .banner-over-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -28%;
+    z-index: 9; }
+    .banner_daotao .banner-over-bottom .over-shadow {
+      background: #fff;
+      box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
+      padding: 2em 3em;
+      text-align: center;
+      border-radius: 8px; }
+      .banner_daotao .banner-over-bottom .over-shadow .item_over {
+        transition: all 0.3 ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        cursor: pointer; }
+        .banner_daotao .banner-over-bottom .over-shadow .item_over:hover {
+          transform: translateY(-3px);
+          -webkit-transform: translateY(-3px); }
+          .banner_daotao .banner-over-bottom .over-shadow .item_over:hover .text-content {
+            color: #18A05F; }
+        .banner_daotao .banner-over-bottom .over-shadow .item_over .thumb {
+          margin-bottom: 20px; }
+        .banner_daotao .banner-over-bottom .over-shadow .item_over .text-content {
+          text-transform: uppercase;
+          color: #262626;
+          font-size: 15px;
+          transition: all 0.3 ease-in-out;
+          -webkit-transition: all 0.3s ease-in-out; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.banner_daotao_sub {
+  position: relative; }
+  .banner_daotao_sub .container-over {
+    position: absolute;
+    top: 13%;
+    left: 0;
+    right: 0; }
+  .banner_daotao_sub .itemm {
+    position: relative;
+    overflow: hidden; }
+    .banner_daotao_sub .itemm img {
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out; }
+    .banner_daotao_sub .itemm:hover img {
+      transform: scale(1.005);
+      -webkit-transform: scale(1.005); }
+    .banner_daotao_sub .itemm:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      background-image: url("../images/icon/icon_youtube.svg");
+      background-repeat: no-repeat;
+      background-position: center center; }
+  .banner_daotao_sub .context_datao {
+    color: #fff; }
+    .banner_daotao_sub .context_datao h1 {
+      padding-top: 10px;
+      font-weight: 800;
+      font-size: 2em;
+      margin-top: 15px;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      padding-bottom: 1em;
+      position: relative; }
+      .banner_daotao_sub .context_datao h1:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        z-index: 1;
+        background: #fff;
+        height: 2px;
+        width: 67px; }
+    .banner_daotao_sub .context_datao .btn-sell {
+      color: #fff;
+      background: #FD8100;
+      border-radius: 30px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-top: 20px;
+      padding: 0.7rem 1.75rem; }
+
+.banner-over-bottom1 {
+  box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
+  padding: 15px 0px; }
+  .banner-over-bottom1 ul {
+    padding: 0px;
+    margin: 0px; }
+    .banner-over-bottom1 ul li {
+      list-style: none;
+      display: inline-block; }
+      .banner-over-bottom1 ul li a {
+        display: inline-block;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        color: #262626;
+        border-radius: 30px;
+        transition: all 0.3s ease-in-out;
+        -webkit-transtion: all 0.3s ease-in-out;
+        font-weight: 500;
+        font-size: 0.8vw;
+        margin-right: 20px; }
+        .banner-over-bottom1 ul li a:hover, .banner-over-bottom1 ul li a.active {
+          background: #18A05F;
+          color: #fff; }
+
+#education_soft {
+  font-family: 'Lato', sans-serif; }
+  #education_soft .chinh_sach {
+    margin-top: 2em; }
+    #education_soft .chinh_sach h3 {
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 1.2em;
+      padding-bottom: 5px;
+      color: #18A05F; }
+  #education_soft .main-evalute {
+    padding-top: 2em; }
+    #education_soft .main-evalute .total_evalute {
+      text-align: center; }
+      #education_soft .main-evalute .total_evalute .title-total {
+        margin-top: 15px;
+        font-weight: 800;
+        font-size: 3vw;
+        font-family: 'Montserrat', sans-serif; }
+      #education_soft .main-evalute .total_evalute p {
+        margin-bottom: 5px; }
+    #education_soft .main-evalute .chart {
+      border-left: 1px solid #ECECEC; }
+      #education_soft .main-evalute .chart ul {
+        padding-left: 20px;
+        margin: 0px; }
+        #education_soft .main-evalute .chart ul li {
+          list-style: none;
+          display: flex;
+          padding: 3px 0px;
+          align-items: center; }
+          #education_soft .main-evalute .chart ul li .col_left {
+            width: calc(100% - 150px);
+            height: 7px;
+            border-radius: 30px;
+            margin-right: 20px;
+            background: #E5E5E5;
+            position: relative; }
+            #education_soft .main-evalute .chart ul li .col_left .over-chart {
+              position: absolute;
+              background: #323232;
+              left: 0;
+              top: 0;
+              border-radius: 30px;
+              bottom: 0;
+              z-index: 8; }
+          #education_soft .main-evalute .chart ul li .col_right {
+            width: 150px;
+            float: right;
+            text-align: right; }
+    #education_soft .main-evalute .edu_comment .item {
+      display: flex; }
+      #education_soft .main-evalute .edu_comment .item .avatar {
+        padding-right: 1.5em; }
+      #education_soft .main-evalute .edu_comment .item .content h3 {
+        font-size: 1.1vw;
+        font-weight: 600;
+        margin-bottom: 4px; }
+      #education_soft .main-evalute .edu_comment .item .content .evalute {
+        color: #C4C4C4;
+        font-size: 15px;
+        display: flex;
+        align-items: center; }
+        #education_soft .main-evalute .edu_comment .item .content .evalute span {
+          margin-top: -6px;
+          display: inline-block;
+          margin-right: 20px; }
+      #education_soft .main-evalute .edu_comment .item .content .content_comment {
+        padding: 10px 0px; }
+      #education_soft .main-evalute .edu_comment .item .content a {
+        transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        color: #18A05F; }
+        #education_soft .main-evalute .edu_comment .item .content a:hover {
+          color: #13854F; }
+      #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item {
+        background: #F5F5F5;
+        padding: 15px 10px;
+        margin-top: 10px;
+        display: flex; }
+        #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item .sub_avatar {
+          padding-right: 10px; }
+        #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item h5 {
+          font-size: 1.2em;
+          font-weight: 600;
+          margin-bottom: 4px; }
+          #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item h5.quantrivien {
+            color: #18A05F; }
+          #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item h5 .rule {
+            font-size: 0.7vw;
+            padding: 4px 10px;
+            background: #18A05F;
+            color: #fff;
+            font-weight: normal;
+            border-radius: 10px; }
+          #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item h5 .time {
+            font-weight: normal;
+            font-size: 15px;
+            color: #C4C4C4; }
+        #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item .sub_text {
+          padding: 10px 0px; }
+  #education_soft.education_main {
+    padding-top: 8vw; }
+  #education_soft.education_detail {
+    margin-bottom: 2em; }
+  #education_soft .head-center {
+    font-weight: 800;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif; }
+  #education_soft .content-item {
+    margin-top: 1em; }
+    #education_soft .content-item .item {
+      border: 1px solid #EFEFEF;
+      border-bottom: none; }
+      #education_soft .content-item .item h2 {
+        font-size: 1em;
+        font-weight: 600;
+        color: #262626;
+        position: relative;
+        padding: 15px 20px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        background: #F9F9F9; }
+        #education_soft .content-item .item h2 .js-action {
+          float: right;
+          position: absolute;
+          right: 20px;
+          top: 18px;
+          cursor: pointer; }
+          #education_soft .content-item .item h2 .js-action .up {
+            display: none; }
+        #education_soft .content-item .item h2.active .up {
+          display: inline-block; }
+        #education_soft .content-item .item h2.active .down {
+          display: none; }
+      #education_soft .content-item .item .item_list {
+        padding: 15px 20px;
+        display: none; }
+        #education_soft .content-item .item .item_list.d-block-custom {
+          display: block; }
+        #education_soft .content-item .item .item_list ul {
+          padding: 0px;
+          margin: 0px; }
+          #education_soft .content-item .item .item_list ul li {
+            list-style: none;
+            position: relative;
+            padding-left: 30px; }
+            #education_soft .content-item .item .item_list ul li a {
+              display: inline-block;
+              padding: 7px 0px;
+              width: 100%;
+              color: #707070; }
+              #education_soft .content-item .item .item_list ul li a .time {
+                float: right;
+                font-size: 13px; }
+              #education_soft .content-item .item .item_list ul li a:hover {
+                color: #18A05F; }
+              #education_soft .content-item .item .item_list ul li a img {
+                position: absolute;
+                left: 0px;
+                top: 11px; }
+    #education_soft .content-item:last-child {
+      border-bottom: 1px solid #EFEFEF; }
+  #education_soft .udemy {
+    margin-top: 2em; }
+    #education_soft .udemy .content-text {
+      padding: 20px 0px;
+      margin-bottom: 20px; }
+      #education_soft .udemy .content-text h3 a {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #3C3C3C;
+        text-transform: uppercase; }
+        #education_soft .udemy .content-text h3 a:hover {
+          color: #18A05F; }
+      #education_soft .udemy .content-text .btn {
+        margin-top: 15px; }
+  #education_soft .team {
+    margin-bottom: 2em;
+    min-height: 300px;
+    padding-bottom: 2em;
+    background: url("../images/thumb/background_team.png") no-repeat center center;
+    background-size: cover; }
+    #education_soft .team h1 {
+      padding-top: 1em;
+      font-size: 1.8em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900; }
+    #education_soft .team .container {
+      margin-top: 2em;
+      font-weight: 600;
+      text-transform: uppercase; }
+      #education_soft .team .container .avatar {
+        margin-bottom: 20px; }
+  #education_soft .library_book {
+    position: relative;
+    padding: 2em 0;
+    max-width: 1600px;
+    margin: 0px auto; }
+    #education_soft .library_book .sl_control {
+      position: absolute;
+      z-index: 9;
+      top: 48%; }
+    #education_soft .library_book .sl_prev {
+      left: -4em; }
+    #education_soft .library_book .sl_next {
+      right: -4em; }
+    #education_soft .library_book h1 {
+      font-size: 1.8em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      padding-bottom: 20px; }
+    #education_soft .library_book .swiper-wrapper {
+      height: auto; }
+      #education_soft .library_book .swiper-wrapper img {
+        width: 100%; }
+      #education_soft .library_book .swiper-wrapper h5 {
+        margin-top: 15px; }
+        #education_soft .library_book .swiper-wrapper h5 a {
+          font-size: 17px;
+          color: #3C3C3C; }
+          #education_soft .library_book .swiper-wrapper h5 a:hover {
+            color: #18A05F; }
+      #education_soft .library_book .swiper-wrapper .price {
+        font-weight: 600;
+        font-size: 16px;
+        color: #FC5226; }
+  #education_soft .col-content-shadow {
+    box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
+    padding: 20px; }
+    #education_soft .col-content-shadow .p-content {
+      text-align: justify; }
+    #education_soft .col-content-shadow h1 {
+      font-size: 1.3vw;
+      font-weight: 600; }
+    #education_soft .col-content-shadow .title-insite-content {
+      margin: 20px 0px;
+      color: #18A05F;
+      text-transform: uppercase;
+      font-size: 1.2vw;
+      font-weight: 600; }
+  #education_soft .content_qc {
+    box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
+    padding: 20px;
+    background: #F8F9FA; }
+    #education_soft .content_qc h3 {
+      font-weight: 600;
+      font-size: 1.3vw;
+      padding-bottom: 10px; }
+    #education_soft .content_qc .content-info {
+      background: #FFF;
+      padding: 5px 15px; }
+      #education_soft .content_qc .content-info ul {
+        margin: 0;
+        padding: 0; }
+        #education_soft .content_qc .content-info ul li {
+          list-style: none; }
+          #education_soft .content_qc .content-info ul li a {
+            display: inline-block;
+            padding: 10px 0px;
+            color: #707070; }
+          #education_soft .content_qc .content-info ul li img {
+            margin-right: 10px; }
+
+.footer_education {
+  background: #F9F9F9; }
+  .footer_education .slogan {
+    padding-top: 4em; }
+    .footer_education .slogan h1 {
+      font-size: 30px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900; }
+  .footer_education .thum_social .mr--5 {
+    margin-right: -5px; }
+
+.h-font {
+  font-family: 'Montserrat', sans-serif; }
+
+.btn-custom-warning {
+  background-color: #FD8100;
+  color: #fff;
+  min-width: 150px;
+  border-radius: 30px; }
+  .btn-custom-warning:hover {
+    color: #F9F9F9;
+    background: #e47702; }
+
+.btn-custom-primary {
+  background-color: #267FFD;
+  color: #fff;
+  min-width: 150px;
+  border-radius: 30px; }
+  .btn-custom-primary:hover {
+    color: #F9F9F9;
+    background: #2270dd; }

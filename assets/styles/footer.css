@@ -1,0 +1,28 @@
+.bg-footer {
+  background-color: #18A05F;
+  color: #fff; }
+  .bg-footer h6 {
+    font-size: 20px;
+    position: relative; }
+    .bg-footer h6::before {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      background-color: #fff;
+      bottom: -20px; }
+  .bg-footer .list-unstyled {
+    padding-top: 20px; }
+    .bg-footer .list-unstyled li {
+      font-size: 14px; }
+      .bg-footer .list-unstyled li a {
+        color: #fff;
+        font-weight: 400; }
+
+.bg-copyright {
+  background-color: #18A05F;
+  color: #fff; }
+  .bg-copyright p {
+    border-top: 1px solid #1AB394;
+    padding-top: 27px;
+    padding-bottom: 24px; }

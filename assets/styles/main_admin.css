@@ -1,0 +1,164 @@
+.layout-admin {
+  background-color: #F9F9F9; }
+  .layout-admin__slider-bar {
+    background-color: #323232;
+    padding: 20px;
+    padding-left: 30px;
+    height: 100vh; }
+    .layout-admin__slider-bar .box-info {
+      display: flex;
+      align-items: center;
+      padding-bottom: 30px; }
+      .layout-admin__slider-bar .box-info img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px; }
+      .layout-admin__slider-bar .box-info h1 {
+        font-size: 13px;
+        margin-bottom: 0;
+        color: #fff; }
+      .layout-admin__slider-bar .box-info h2 {
+        font-size: 15px;
+        margin-bottom: 0;
+        color: #fff; }
+    .layout-admin__slider-bar ul {
+      list-style: none;
+      padding-left: 0; }
+      .layout-admin__slider-bar ul li {
+        border-top: 1px solid #404040;
+        padding: 10px 0; }
+        .layout-admin__slider-bar ul li:last-child {
+          border-bottom: 1px solid #404040; }
+        .layout-admin__slider-bar ul li i {
+          padding-right: 10px; }
+        .layout-admin__slider-bar ul li a {
+          text-decoration: none;
+          color: #c4c4c4;
+          font-size: 14px; }
+        .layout-admin__slider-bar ul li .navbar-nav li {
+          border-top: 0;
+          border-bottom: 0;
+          padding: 0; }
+        .layout-admin__slider-bar ul li.sub-menu-admin.active .navbar-collapse {
+          display: block !important; }
+        .layout-admin__slider-bar ul li.active a {
+          color: #fff; }
+  .layout-admin__content {
+    padding-left: 0; }
+    .layout-admin__content__top {
+      padding: 20px;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 50px; }
+      .layout-admin__content__top h1 {
+        font-size: 30px;
+        color: #000;
+        margin-bottom: 0; }
+      .layout-admin__content__top button {
+        padding: 10px 15px;
+        background-color: #df7504;
+        border-radius: 150px;
+        border: 0; }
+        .layout-admin__content__top button p {
+          margin-bottom: 0;
+          font-size: 14px;
+          font-weight: 400;
+          color: #fff; }
+    .layout-admin__content__center {
+      padding-left: 50px; }
+      .layout-admin__content__center .box-info {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px; }
+        .layout-admin__content__center .box-info img {
+          width: 80px;
+          height: 80px;
+          margin-right: 30px; }
+        .layout-admin__content__center .box-info h1 {
+          font-size: 17px;
+          margin-bottom: 0; }
+        .layout-admin__content__center .box-info h2 {
+          font-size: 15px;
+          margin-bottom: 0; }
+      .layout-admin__content__center form label {
+        font-size: 13px; }
+      .layout-admin__content__center form button {
+        width: 100%;
+        color: #fff;
+        background-color: #18A05F; }
+      .layout-admin__content__center .box-premium {
+        padding: 20px;
+        background-color: #fff;
+        width: 400px; }
+        .layout-admin__content__center .box-premium h1 {
+          font-size: 20px; }
+        .layout-admin__content__center .box-premium p {
+          font-size: 13px; }
+        .layout-admin__content__center .box-premium button {
+          border: 1px solid #18A05F;
+          background-color: transparent;
+          border-radius: 5px;
+          padding: 10px; }
+          .layout-admin__content__center .box-premium button p {
+            color: #18A05F;
+            margin-bottom: 0; }
+      .layout-admin__content__center .box-level {
+        background-color: #fff;
+        padding: 30px 20px;
+        border-radius: 10px; }
+        .layout-admin__content__center .box-level h1 {
+          font-size: 20px;
+          margin-bottom: 10px; }
+        .layout-admin__content__center .box-level button {
+          margin-bottom: 40px; }
+      .layout-admin__content__center table td a {
+        color: #000; }
+      .layout-admin__content__center .box-answer-software {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 32%; }
+        .layout-admin__content__center .box-answer-software h1 {
+          font-size: 20px;
+          margin-bottom: 15px; }
+        .layout-admin__content__center .box-answer-software__top {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 10px; }
+          .layout-admin__content__center .box-answer-software__top h2 {
+            font-size: 16px;
+            color: #18A05F;
+            margin-bottom: 0; }
+          .layout-admin__content__center .box-answer-software__top__time {
+            display: flex;
+            align-items: center; }
+            .layout-admin__content__center .box-answer-software__top__time p {
+              font-size: 15px;
+              padding-left: 5px; }
+          .layout-admin__content__center .box-answer-software__top p {
+            font-size: 15px;
+            margin-bottom: 0; }
+        .layout-admin__content__center .box-answer-software__middle {
+          background-color: #F9F9F9;
+          padding: 10px 20px; }
+          .layout-admin__content__center .box-answer-software__middle h1 {
+            font-size: 18px;
+            margin-bottom: 20px; }
+          .layout-admin__content__center .box-answer-software__middle__name {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 10px; }
+            .layout-admin__content__center .box-answer-software__middle__name h2 {
+              font-size: 15px;
+              color: #18A05F;
+              margin-bottom: 0; }
+            .layout-admin__content__center .box-answer-software__middle__name__time {
+              color: gray;
+              display: flex;
+              align-items: center; }
+              .layout-admin__content__center .box-answer-software__middle__name__time p {
+                margin-bottom: 0;
+                padding-left: 5px; }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="15" height="15" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <path id="Icon_material-shopping-cart" data-name="Icon material-shopping-cart" d="M6,15a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,6,15ZM1.5,3V4.5H3l2.7,5.693L4.688,12.03a1.45,1.45,0,0,0-.187.72A1.5,1.5,0,0,0,6,14.25h9v-1.5H6.315a.186.186,0,0,1-.187-.187l.023-.09.675-1.222h5.588a1.493,1.493,0,0,0,1.312-.772L16.41,5.61a.733.733,0,0,0,.09-.36.752.752,0,0,0-.75-.75H4.658L3.953,3Zm12,12A1.5,1.5,0,1,0,15,16.5,1.5,1.5,0,0,0,13.5,15Z" transform="translate(-1.5 -3)" fill="#fff"/>
+  </g>
+</svg>

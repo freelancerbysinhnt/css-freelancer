@@ -1,0 +1,156 @@
+.list-box-tutorial .box-tutorial {
+  background-color: #ECECEC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 15px;
+  cursor: pointer; }
+  .list-box-tutorial .box-tutorial p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0; }
+
+.list-box-tutorial .hide {
+  display: none; }
+
+.list-box-tutorial ul {
+  display: none; }
+
+.list-box-tutorial.active .box-tutorial {
+  background-color: #18A05F; }
+  .list-box-tutorial.active .box-tutorial .hide {
+    display: block; }
+  .list-box-tutorial.active .box-tutorial .show {
+    display: none; }
+  .list-box-tutorial.active .box-tutorial p {
+    color: #fff; }
+
+.list-box-tutorial.active ul {
+  display: block;
+  padding-left: 30px;
+  animation: 3s; }
+  .list-box-tutorial.active ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; }
+    .list-box-tutorial.active ul li img {
+      width: 20px;
+      height: 20px; }
+    .list-box-tutorial.active ul li a {
+      text-decoration: none;
+      color: #000;
+      font-size: 15px;
+      font-weight: 400;
+      padding-left: 15px; }
+    .list-box-tutorial.active ul li:hover a {
+      color: #18A05F;
+      font-weight: 700; }
+
+.box-tutorial__right {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px; }
+  .box-tutorial__right h1 {
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 10px;
+    text-align: left; }
+  .box-tutorial__right p {
+    margin-bottom: 0;
+    font-size: 18px;
+    text-align: left; }
+  .box-tutorial__right img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: unset; }
+  .box-tutorial__right--title {
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px; }
+    .box-tutorial__right--title p {
+      font-size: 15px;
+      font-weight: 700;
+      padding-left: 15px;
+      margin-bottom: 0; }
+    .box-tutorial__right--title img {
+      margin: 0 !important; }
+  .box-tutorial__right .list-tutorial {
+    text-align: left;
+    padding-top: 10px; }
+    .box-tutorial__right .list-tutorial ul {
+      padding-left: 20px;
+      list-style: none; }
+      .box-tutorial__right .list-tutorial ul li {
+        font-size: 15px;
+        font-weight: 400; }
+        .box-tutorial__right .list-tutorial ul li::before {
+          content: "\2022";
+          color: #18A05F;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em; }
+        .box-tutorial__right .list-tutorial ul li:hover {
+          color: #18A05F; }
+  .box-tutorial__right__list-video__video {
+    position: relative; }
+    .box-tutorial__right__list-video__video img {
+      width: 100%; }
+      .box-tutorial__right__list-video__video img.icon-play {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 25px;
+        height: 25px;
+        left: 50%;
+        margin: 0; }
+  .box-tutorial__right .show-more-list {
+    color: #18A05F;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400; }
+  .box-tutorial__right p {
+    font-size: 15px;
+    padding-bottom: 20px; }
+  .box-tutorial__right .text-note {
+    font-size: 18px;
+    font-weight: 700; }
+  .box-tutorial__right .table thead {
+    background-color: #18A05F;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+    .box-tutorial__right .table thead th {
+      font-size: 14px;
+      font-weight: 400; }
+      .box-tutorial__right .table thead th:first-child {
+        width: 150px; }
+  .box-tutorial__right .table tbody tr td {
+    font-size: 12px;
+    font-weight: 400; }
+  .box-tutorial__right__custom {
+    border-bottom: 1px solid #ECECEC; }
+    .box-tutorial__right__custom h2 {
+      font-size: 24px;
+      font-weight: 700;
+      padding-bottom: 0px;
+      text-align: left;
+      margin-bottom: 0; }
+
+.list-post-same {
+  padding-left: 0;
+  padding-right: 0; }
+  .list-post-same.user-manual__left h3 {
+    font-size: 20px;
+    padding-left: 30px; }
+  .list-post-same.user-manual__left ul li {
+    padding-left: 30px; }
