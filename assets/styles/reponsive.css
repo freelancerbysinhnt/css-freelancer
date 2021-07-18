@@ -1,0 +1,167 @@
+.menu_mobile_header {
+  display: none; }
+  .menu_mobile_header .box-wp {
+    background: #18a05f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .menu_mobile_header .box-wp .header-left {
+      padding: 5px; }
+      .menu_mobile_header .box-wp .header-left img {
+        width: 50px; }
+    .menu_mobile_header .box-wp .header-right {
+      text-align: right;
+      padding-right: 60px; }
+      .menu_mobile_header .box-wp .header-right a {
+        padding: 4px 10px;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 30px; }
+        .menu_mobile_header .box-wp .header-right a.btn-bd-download {
+          background-color: #267FFD; }
+        .menu_mobile_header .box-wp .header-right a.btn-bd-user {
+          background-color: #FD8100; }
+
+#hamburger {
+  box-sizing: border-box;
+  width: 60px;
+  height: 44px;
+  background: none;
+  position: fixed;
+  top: 8px;
+  display: inline-block;
+  right: 0;
+  z-index: 91;
+  overflow: hidden; }
+
+#hamburger:before, #hamburger:after, #hamburger span {
+  background-color: #ffffff;
+  content: '';
+  display: block;
+  width: 28px;
+  height: 4px;
+  position: absolute;
+  right: 16px; }
+
+#hamburger:before {
+  top: 10px; }
+
+#hamburger span {
+  top: 20px; }
+
+#hamburger:after {
+  top: 30px; }
+
+#hamburger:before, #hamburger:after, #hamburger span {
+  -webkit-transition: none 0.5s ease 0.5s;
+  transition: none 0.5s ease 0.5s;
+  -webkit-transition-property: transform, top, bottom, right, opacity;
+  transition-property: transform, top, bottom, right, opacity; }
+
+.menu_mobile_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; }
+
+@media screen and (max-width: 1450px) {
+  header.navbar .header-lg li > ul .header-div__submenu .tag-overload__page {
+    overflow-x: auto; }
+  header.navbar .header-lg li > ul .header-div__submenu ul .item-vio {
+    width: 227px; }
+  .custom-header {
+    padding-left: 80px; } }
+
+@media screen and (max-width: 1350px) {
+  .custom-header {
+    padding-left: 0px; }
+  .section-feature__item__list--image img {
+    width: 100%;
+    object-fit: inherit; }
+  .box-slide-bottom {
+    width: 100%; } }
+
+@media screen and (max-width: 1250px) {
+  header.navbar .header-lg .navbar-nav-scroll {
+    margin-right: 0px; }
+  header.navbar .custom-header {
+    width: 100%;
+    padding-right: 10px; }
+  .section-export img {
+    width: 100%; }
+  .section-working__image img {
+    width: 100%; }
+  .slider {
+    background-color: #f9f9f9; }
+    .slider .col-slider {
+      position: relative;
+      bottom: -20px;
+      background-color: #fff;
+      padding: 40px 20px 20px 20px; }
+    .slider .carousel-indicators {
+      bottom: 5px; }
+  .pt-12em {
+    padding-top: 4vw; } }
+
+@media screen and (max-width: 1000px) {
+  .top-version > .row .mb-3 img {
+    width: 100%; }
+  .free-use {
+    padding-bottom: 15px; }
+  .list-post.container .row {
+    justify-content: center !important; }
+    .list-post.container .row .list-post__item {
+      width: 100%;
+      flex: 0 0 100%; }
+  header.navbar {
+    display: none; }
+  .menu_mobile_header {
+    display: block; }
+  #mm-0 {
+    padding-top: 60px; }
+  .user-mobile {
+    display: inline-block;
+    padding: 0px; }
+    .user-mobile img {
+      width: 40px; }
+  .header-have_icon {
+    position: relative; }
+    .header-have_icon .dunus {
+      background: #D50F19;
+      color: #fff;
+      position: absolute;
+      padding: 1px 2px 0px 2px;
+      border-radius: 10px;
+      top: -14px;
+      display: inline-block;
+      line-height: 14px; }
+  .section-customer-reviews {
+    overflow-x: hidden; }
+  .slider-text-over {
+    margin-top: 15px; }
+  .top-version .row > .col-lg-6 {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%; }
+  .top-version .row > .col-lg-6:first-child {
+    text-align: center; }
+  .free-use h2 {
+    font-size: 18px; }
+  .free-use h1 {
+    font-size: 20px; }
+  .pt-12em {
+    margin-top: 20px; }
+  .section-update h1, .section-enterprise h1, .section-customer-reviews h1, .section-feature h1, .section-export h1, .section-software h1, .section-working__list h1, .section-me h1, .section-question h1 {
+    font-size: 20px; }
+  .list-box-data {
+    margin-top: 20px; }
+  .section-question .list-box-data .box-data__item p {
+    font-size: 23px; }
+  .section-software__box__left h2, .section-me__item h2 {
+    font-size: 18px; }
+  button p {
+    margin-bottom: -5px !important; } }
+
+.section-update .list-post__item {
+  margin-bottom: 15px; }

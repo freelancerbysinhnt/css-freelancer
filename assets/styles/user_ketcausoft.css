@@ -1,0 +1,305 @@
+.user-banner {
+  margin-bottom: 5px; }
+
+.user-ketcausoft {
+  background-color: #f5f5f5;
+  padding: 50px 0; }
+  .user-ketcausoft .section-info {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3); }
+    .user-ketcausoft .section-info__header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 40px; }
+      .user-ketcausoft .section-info__header .avatar-container {
+        position: relative;
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 30px; }
+        .user-ketcausoft .section-info__header .avatar-container::before {
+          content: "";
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background-color: #ffffff;
+          top: 0;
+          right: 0;
+          border-radius: 10px;
+          opacity: 0.8;
+          cursor: pointer; }
+      .user-ketcausoft .section-info__header .avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%; }
+      .user-ketcausoft .section-info__header .edit-avatar {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer; }
+      .user-ketcausoft .section-info__header .name-container .user-name {
+        font-family: "Lato";
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: bold;
+        margin-bottom: 20px; }
+      .user-ketcausoft .section-info__header .name-container p {
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 20px; }
+      .user-ketcausoft .section-info__header .name-container button {
+        padding: 10px 20px;
+        border-radius: 10px; }
+    .user-ketcausoft .section-info h4 {
+      font-family: "Lato";
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: bold;
+      margin: 0; }
+    .user-ketcausoft .section-info__body__left form label {
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 18px;
+      font-weight: bold;
+      margin: 0;
+      display: flex;
+      align-items: center; }
+    .user-ketcausoft .section-info__body__left .group-password .row {
+      position: relative; }
+      .user-ketcausoft .section-info__body__left .group-password .row a {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-10%, -50%);
+        font-family: "Lato";
+        font-size: 12px;
+        line-height: 15px;
+        color: #c4c4c4;
+        cursor: pointer; }
+      .user-ketcausoft .section-info__body__left .group-password .row input {
+        padding-right: 90px; }
+    .user-ketcausoft .section-info__body__left .change-password {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid #c4c4c4; }
+      .user-ketcausoft .section-info__body__left .change-password .group-label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px; }
+        .user-ketcausoft .section-info__body__left .change-password .group-label span {
+          cursor: pointer; }
+      .user-ketcausoft .section-info__body__left .change-password #show_hide_password_old,
+      .user-ketcausoft .section-info__body__left .change-password #show_hide_password_new {
+        position: relative;
+        margin-bottom: 15px; }
+        .user-ketcausoft .section-info__body__left .change-password #show_hide_password_old img,
+        .user-ketcausoft .section-info__body__left .change-password #show_hide_password_new img {
+          position: absolute;
+          top: 50%;
+          right: 0px;
+          transform: translate(-50%, -50%);
+          cursor: pointer;
+          width: 17px;
+          height: 11px; }
+      .user-ketcausoft .section-info__body__left .change-password button {
+        background-color: #323232;
+        border-radius: 5px;
+        padding: 5px 25px; }
+    .user-ketcausoft .section-info__body__left .group-input-facebook input {
+      color: #267ffd; }
+    .user-ketcausoft .section-info__body__left .btn-change-info {
+      background-color: #18a05f;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 18px; }
+    .user-ketcausoft .section-info__body__right .group-content {
+      padding: 30px;
+      border-radius: 5px;
+      border: 1px solid #c4c4c4; }
+      .user-ketcausoft .section-info__body__right .group-content .group-title {
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: bold; }
+      .user-ketcausoft .section-info__body__right .group-content p {
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 18px; }
+      .user-ketcausoft .section-info__body__right .group-content button {
+        color: #18a05f;
+        border: 1px solid #18a05f;
+        padding: 7px 23px; }
+  .user-ketcausoft .section-moment {
+    padding: 45px 0 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px; }
+    .user-ketcausoft .section-moment__wrap-image {
+      max-width: 450px;
+      max-height: 327px; }
+      .user-ketcausoft .section-moment__wrap-image img {
+        width: 100%;
+        height: 100%; }
+    .user-ketcausoft .section-moment p {
+      font-family: "Lato";
+      font-size: 17px;
+      line-height: 25px;
+      font-weight: bold; }
+    .user-ketcausoft .section-moment button {
+      color: #18a05f;
+      border: 1px solid #18a05f;
+      padding: 10px 40px;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 18px; }
+  .user-ketcausoft h1 {
+    text-transform: uppercase;
+    font-family: "Lato";
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px; }
+  .user-ketcausoft .section-benefit {
+    padding: 45px 15px 60px;
+    background-color: #fff;
+    border-radius: 10px; }
+    .user-ketcausoft .section-benefit h1 {
+      text-align: center; }
+    .user-ketcausoft .section-benefit thead th {
+      text-align: center;
+      background-color: #ececec; }
+      .user-ketcausoft .section-benefit thead th:last-child {
+        background-color: #ddf8eb; }
+    .user-ketcausoft .section-benefit tbody tr td {
+      border-right: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
+      padding: 15px 30px; }
+      .user-ketcausoft .section-benefit tbody tr td img {
+        margin-right: 10px; }
+      .user-ketcausoft .section-benefit tbody tr td:last-child {
+        border-right: none; }
+  .user-ketcausoft .container__search-header {
+    max-width: 900px;
+    margin: 0 auto 40px; }
+  .user-ketcausoft .container__search-keyword {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0; }
+    .user-ketcausoft .container__search-keyword ul,
+    .user-ketcausoft .container__search-keyword li {
+      list-style: none; }
+      .user-ketcausoft .container__search-keyword ul a,
+      .user-ketcausoft .container__search-keyword li a {
+        color: #262626;
+        font-family: "Lato";
+        font-size: 14px;
+        line-height: 35px; }
+    .user-ketcausoft .container__search-keyword__item {
+      margin-right: 15px; }
+  .user-ketcausoft .section-clip-thematic {
+    background-color: #fff;
+    padding: 45px 15px 60px;
+    border-radius: 10px;
+    margin-bottom: 60px; }
+    .user-ketcausoft .section-clip-thematic__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ececec; }
+    .user-ketcausoft .section-clip-thematic__title {
+      font-family: "Lato";
+      font-size: 24px;
+      line-height: 35px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .user-ketcausoft .section-clip-thematic__more a {
+      color: #18a05f; }
+    .user-ketcausoft .section-clip-thematic__item {
+      max-width: 360px;
+      max-height: 200px;
+      margin-bottom: 20px; }
+      .user-ketcausoft .section-clip-thematic__item img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer; }
+  .user-ketcausoft .section-course {
+    position: relative; }
+    .user-ketcausoft .section-course__body .wrap-image {
+      max-width: 340px;
+      max-height: 195px; }
+      .user-ketcausoft .section-course__body .wrap-image img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer; }
+    .user-ketcausoft .section-course__body p {
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 24px; }
+    .user-ketcausoft .section-course__title {
+      font-family: "Lato";
+      font-size: 18px;
+      line-height: 35px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 10px 0; }
+    .user-ketcausoft .section-course .course-prev {
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+      left: -14px;
+      transform: translate(0%, -50%);
+      cursor: pointer; }
+    .user-ketcausoft .section-course .course-next {
+      position: absolute;
+      top: 50%;
+      z-index: 1;
+      right: -14px;
+      transform: translate(0%, -50%);
+      cursor: pointer; }
+  .user-ketcausoft .section-document__list {
+    padding: 0; }
+  .user-ketcausoft .section-document__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    margin-bottom: 15px; }
+    .user-ketcausoft .section-document__item img {
+      cursor: pointer; }
+  .user-ketcausoft .tag-title {
+    text-align: left;
+    margin-bottom: 10px; }
+  .user-ketcausoft .tag-1,
+  .user-ketcausoft .tag-2,
+  .user-ketcausoft .tag-3,
+  .user-ketcausoft .tag-4 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "Lato";
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    margin-bottom: 10px; }
+  .user-ketcausoft .tag-1 {
+    background-color: #1ab394; }
+  .user-ketcausoft .tag-2 {
+    background-color: #fc5226; }
+  .user-ketcausoft .tag-3 {
+    background-color: #2aa3ff; }
+  .user-ketcausoft .tag-4 {
+    background-color: #074ec8; }
+  .user-ketcausoft .group-button {
+    margin-bottom: 50px; }

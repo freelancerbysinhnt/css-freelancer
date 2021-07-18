@@ -132,8 +132,153 @@ body {
           background: #18A05F;
           color: #fff; }
 
+.div-thanhtoan {
+  background: #F9F9F9;
+  padding-top: 2em; }
+  .div-thanhtoan h2 {
+    font-weight: 600;
+    font-size: 1.3vw;
+    padding-bottom: 10px;
+    margin-bottom: 1.5vw; }
+    .div-thanhtoan h2:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: 80px;
+      height: 3px;
+      background-color: #18a05f; }
+  .div-thanhtoan .container .item {
+    margin-bottom: 2.5em;
+    display: inline-block;
+    width: 100%; }
+    .div-thanhtoan .container .item img {
+      margin-right: 15px; }
+    .div-thanhtoan .container .item span {
+      display: block; }
+    .div-thanhtoan .container .item h4 {
+      font-size: 1vw;
+      font-weight: 600;
+      padding-top: 0.2vw; }
+
 #education_soft {
   font-family: 'Lato', sans-serif; }
+  #education_soft .left-khoahoc {
+    box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
+    padding: 15px; }
+    #education_soft .left-khoahoc .nav-menu h2.head {
+      font-size: 1vw;
+      font-weight: 900;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 10px; }
+    #education_soft .left-khoahoc .nav-menu .process {
+      margin: 10px 0px 0px 0px;
+      display: flex;
+      align-items: center; }
+      #education_soft .left-khoahoc .nav-menu .process .processing {
+        height: 8px;
+        margin-right: 15px;
+        width: 100%;
+        background: #ECECEC;
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden; }
+        #education_soft .left-khoahoc .nav-menu .process .processing span {
+          left: 0;
+          top: 0;
+          bottom: 0;
+          border-radius: 30px;
+          background-color: #323232;
+          z-index: 1;
+          position: absolute; }
+  #education_soft .right_khoahoc .khoahoc_header {
+    padding: 13px  5% 13px  30px;
+    background-color: #ECECEC;
+    margin-left: -15px;
+    margin-right: -15px; }
+    #education_soft .right_khoahoc .khoahoc_header .action {
+      cursor: pointer; }
+    #education_soft .right_khoahoc .khoahoc_header h2 {
+      font-size: 1vw;
+      font-weight: 600;
+      margin-bottom: 0px; }
+  #education_soft .right_khoahoc .content_khoahoc {
+    padding: 2em 5% 2em 15px;
+    padding-right: calc(5% - 15px); }
+    #education_soft .right_khoahoc .content_khoahoc .video {
+      margin-bottom: 1.5em; }
+    #education_soft .right_khoahoc .content_khoahoc h2 {
+      font-size: 1vw;
+      font-weight: 600;
+      margin-top: 10px;
+      text-transform: uppercase; }
+  #education_soft .detail_khoahoc .content-video {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 1.8em;
+    width: 100%; }
+    #education_soft .detail_khoahoc .content-video h2 {
+      padding-top: 20px;
+      font-weight: 800;
+      font-size: 1.5em; }
+    #education_soft .detail_khoahoc .content-video p {
+      font-weight: 600;
+      color: #FC5226; }
+    #education_soft .detail_khoahoc .content-video img {
+      width: 220px;
+      margin-right: 20px; }
+  #education_soft .detail_khoahoc .info h2 {
+    font-size: 1.3em;
+    font-weight: 600; }
+  #education_soft .detail_khoahoc .info form {
+    margin-bottom: 2em; }
+  #education_soft .detail_khoahoc .info p label {
+    margin-bottom: 0px; }
+  #education_soft .detail_khoahoc .info p input[type="radio"] {
+    border: .0625rem solid #707070;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 15px;
+    margin-right: 5px;
+    margin-top: -5px;
+    width: 15px;
+    position: relative;
+    min-width: 15px;
+    outline: 0;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  #education_soft .detail_khoahoc .info p input[type="radio"]:checked {
+    background: #59a386; }
+  #education_soft .detail_khoahoc .info p input[type="radio"]:checked:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    height: 6px;
+    width: 10px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    color: #fff;
+    transform: rotate(-45deg);
+    left: 2px;
+    top: 2px; }
+  #education_soft .becreaum {
+    background: #F9F9F9;
+    padding: 15px 0px; }
+    #education_soft .becreaum a {
+      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      color: #3B3B3B;
+      display: inline-block; }
+      #education_soft .becreaum a:hover {
+        color: #13854F; }
+    #education_soft .becreaum img {
+      width: 10px;
+      margin: 10px 10px; }
   #education_soft .chinh_sach {
     margin-top: 2em; }
     #education_soft .chinh_sach h3 {
@@ -142,6 +287,71 @@ body {
       font-size: 1.2em;
       padding-bottom: 5px;
       color: #18A05F; }
+  #education_soft .evalu-input {
+    width: 100%; }
+    #education_soft .evalu-input input {
+      margin-top: 10px;
+      border-radius: 30px;
+      background: #F5F5F5;
+      border: 0px; }
+  #education_soft .edu_comment .item {
+    display: flex; }
+    #education_soft .edu_comment .item .avatar {
+      padding-right: 1.5em; }
+    #education_soft .edu_comment .item .content h3 {
+      font-size: 0.9vw;
+      font-weight: 600;
+      margin-bottom: 4px; }
+    #education_soft .edu_comment .item .content .evalute {
+      color: #C4C4C4;
+      font-size: 15px;
+      display: flex;
+      align-items: center; }
+      #education_soft .edu_comment .item .content .evalute span {
+        margin-top: -6px;
+        display: inline-block;
+        margin-right: 20px; }
+    #education_soft .edu_comment .item .content .content_comment {
+      padding: 10px 0px; }
+    #education_soft .edu_comment .item .content a {
+      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      color: #18A05F; }
+      #education_soft .edu_comment .item .content a:hover {
+        color: #13854F; }
+    #education_soft .edu_comment .item .content .sub_comment .sub_item {
+      background: #F5F5F5;
+      padding: 15px 10px;
+      margin-top: 10px;
+      display: flex; }
+      #education_soft .edu_comment .item .content .sub_comment .sub_item .sub_avatar {
+        padding-right: 10px; }
+      #education_soft .edu_comment .item .content .sub_comment .sub_item h5 {
+        font-size: 0.98em;
+        font-weight: 600;
+        margin-bottom: 4px; }
+        #education_soft .edu_comment .item .content .sub_comment .sub_item h5.quantrivien {
+          color: #18A05F; }
+        #education_soft .edu_comment .item .content .sub_comment .sub_item h5 .rule {
+          font-size: 0.5vw;
+          padding: 4px 10px;
+          background: #18A05F;
+          color: #fff;
+          font-weight: normal;
+          border-radius: 10px; }
+        #education_soft .edu_comment .item .content .sub_comment .sub_item h5 .time {
+          font-weight: normal;
+          font-size: 15px;
+          color: #C4C4C4; }
+      #education_soft .edu_comment .item .content .sub_comment .sub_item .sub_text {
+        padding: 10px 0px; }
+  #education_soft .comment .edu_comment .content h3 {
+    font-size: 0.9vw; }
+  #education_soft .comment .edu_comment .content .sub_content h5 {
+    font-size: 0.8vw !important; }
+  #education_soft .comment .edu_comment .content .sub_content .rule {
+    font-size: 0.5vw !important;
+    margin-top: -10px; }
   #education_soft .main-evalute {
     padding-top: 2em; }
     #education_soft .main-evalute .total_evalute {
@@ -182,57 +392,6 @@ body {
             width: 150px;
             float: right;
             text-align: right; }
-    #education_soft .main-evalute .edu_comment .item {
-      display: flex; }
-      #education_soft .main-evalute .edu_comment .item .avatar {
-        padding-right: 1.5em; }
-      #education_soft .main-evalute .edu_comment .item .content h3 {
-        font-size: 1.1vw;
-        font-weight: 600;
-        margin-bottom: 4px; }
-      #education_soft .main-evalute .edu_comment .item .content .evalute {
-        color: #C4C4C4;
-        font-size: 15px;
-        display: flex;
-        align-items: center; }
-        #education_soft .main-evalute .edu_comment .item .content .evalute span {
-          margin-top: -6px;
-          display: inline-block;
-          margin-right: 20px; }
-      #education_soft .main-evalute .edu_comment .item .content .content_comment {
-        padding: 10px 0px; }
-      #education_soft .main-evalute .edu_comment .item .content a {
-        transition: all 0.4s ease-in-out;
-        -webkit-transition: all 0.4s ease-in-out;
-        color: #18A05F; }
-        #education_soft .main-evalute .edu_comment .item .content a:hover {
-          color: #13854F; }
-      #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item {
-        background: #F5F5F5;
-        padding: 15px 10px;
-        margin-top: 10px;
-        display: flex; }
-        #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item .sub_avatar {
-          padding-right: 10px; }
-        #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item h5 {
-          font-size: 1.2em;
-          font-weight: 600;
-          margin-bottom: 4px; }
-          #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item h5.quantrivien {
-            color: #18A05F; }
-          #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item h5 .rule {
-            font-size: 0.7vw;
-            padding: 4px 10px;
-            background: #18A05F;
-            color: #fff;
-            font-weight: normal;
-            border-radius: 10px; }
-          #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item h5 .time {
-            font-weight: normal;
-            font-size: 15px;
-            color: #C4C4C4; }
-        #education_soft .main-evalute .edu_comment .item .content .sub_comment .sub_item .sub_text {
-          padding: 10px 0px; }
   #education_soft.education_main {
     padding-top: 8vw; }
   #education_soft.education_detail {
@@ -393,6 +552,7 @@ body {
           #education_soft .content_qc .content-info ul li a {
             display: inline-block;
             padding: 10px 0px;
+            width: 100%;
             color: #707070; }
           #education_soft .content_qc .content-info ul li img {
             margin-right: 10px; }
@@ -428,3 +588,37 @@ body {
   .btn-custom-primary:hover {
     color: #F9F9F9;
     background: #2270dd; }
+
+.download_soft {
+  padding: 2em 0px; }
+  .download_soft h2.head {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-bottom: 1em; }
+  .download_soft .download_left h3 {
+    font-size: 1.1vw;
+    font-weight: 800;
+    padding-bottom: 10px; }
+  .download_soft .download_left .note_download {
+    background: #F8F9FA;
+    padding: 20px; }
+    .download_soft .download_left .note_download h2 {
+      font-size: 1.8vw;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900; }
+    .download_soft .download_left .note_download button, .download_soft .download_left .note_download input {
+      padding: 10px; }
+  .download_soft .download-boxshadow {
+    box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
+    padding: 20px;
+    background: #fff; }
+    .download_soft .download-boxshadow h3 {
+      font-size: 1.1vw;
+      font-weight: 600;
+      padding-bottom: 15px; }
+    .download_soft .download-boxshadow .item h2 {
+      font-size: 0.9vw !important;
+      font-weight: normal !important; }
+    .download_soft .download-boxshadow .item ul li {
+      padding-left: 0px !important; }

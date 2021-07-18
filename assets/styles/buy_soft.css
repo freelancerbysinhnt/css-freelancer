@@ -1,0 +1,276 @@
+.buy-soft h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  line-height: 44px; }
+
+.buy-soft .button-hotline {
+  background-color: #fd8100 !important; }
+  .buy-soft .button-hotline img {
+    width: 16px !important;
+    height: 16px; }
+
+.buy-soft .button-zalo {
+  background-color: #2aa3ff !important;
+  border: none !important; }
+  .buy-soft .button-zalo p {
+    color: #fff !important; }
+
+.buy-soft .section__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 30px;
+  position: relative;
+  text-transform: uppercase; }
+  .buy-soft .section__title::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #18a05f;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.buy-soft .section-card {
+  background-color: #f9f9f9;
+  padding: 50px 0; }
+  .buy-soft .section-card__list {
+    margin-bottom: 45px; }
+  .buy-soft .section-card__item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 20px; }
+    .buy-soft .section-card__item::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+      content: "";
+      border-radius: 10px;
+      opacity: 0;
+      z-index: -1; }
+    .buy-soft .section-card__item:hover, .buy-soft .section-card__item:focus {
+      transform: scale3d(1.006, 1.006, 1); }
+      .buy-soft .section-card__item:hover::after, .buy-soft .section-card__item:focus::after {
+        opacity: 1; }
+    .buy-soft .section-card__item p {
+      text-align: center;
+      font-family: "Lato";
+      font-size: 16px;
+      line-height: 36px;
+      margin: 0; }
+  .buy-soft .section-card__header {
+    background-color: #2aa3ff;
+    border-radius: 10px;
+    clip-path: ellipse(65% 60% at 50% 20%);
+    padding: 10px; }
+    .buy-soft .section-card__header--online {
+      background-color: #2aa3ff; }
+    .buy-soft .section-card__header--log {
+      background-color: #1ab394; }
+    .buy-soft .section-card__header--code {
+      background-color: #f8b600; }
+    .buy-soft .section-card__header--infinity {
+      background-color: #fd8100; }
+    .buy-soft .section-card__header-title {
+      text-align: center;
+      font-family: "Lato";
+      font-size: 13px;
+      line-height: 16px;
+      color: #fff;
+      text-transform: uppercase; }
+  .buy-soft .section-card__image {
+    width: 21px;
+    height: 21px;
+    margin: 0 auto 5px;
+    display: block; }
+  .buy-soft .section-card__price {
+    text-align: center;
+    font-family: "Lato";
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+    .buy-soft .section-card__price small {
+      font-family: "Lato";
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      margin-left: 5px; }
+    .buy-soft .section-card__price--online {
+      color: #2aa3ff; }
+    .buy-soft .section-card__price--log {
+      color: #1ab394; }
+    .buy-soft .section-card__price--code {
+      color: #f8b600; }
+    .buy-soft .section-card__price--infinity {
+      color: #fd8100; }
+  .buy-soft .section-card__button {
+    display: block;
+    margin: 20px auto;
+    font-family: "Lato";
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    border-radius: 26px;
+    padding: 10px 20px;
+    border: none; }
+    .buy-soft .section-card__button--online {
+      background-color: #2aa3ff; }
+    .buy-soft .section-card__button--log {
+      background-color: #1ab394; }
+    .buy-soft .section-card__button--code {
+      background-color: #f8b600; }
+    .buy-soft .section-card__button--infinity {
+      background-color: #fd8100; }
+  .buy-soft .section-card__hotline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .buy-soft .section-card__hotline p {
+      font-family: "Lato";
+      font-size: 20px;
+      line-height: 36px;
+      font-weight: bold;
+      margin: 0 5px 0 0; }
+    .buy-soft .section-card__hotline button {
+      background-color: #18a05f;
+      font-family: "Lato";
+      font-size: 20px;
+      line-height: 36px;
+      font-weight: 400;
+      border-radius: 26px;
+      padding: 5px 25px; }
+
+.buy-soft .section-payment {
+  padding: 30px 15px 60px; }
+  .buy-soft .section-payment__tutorial {
+    padding: 30px 0; }
+    .buy-soft .section-payment__tutorial__item {
+      min-height: 250px; }
+    .buy-soft .section-payment__tutorial__label {
+      position: relative;
+      margin-bottom: 20px; }
+    .buy-soft .section-payment__tutorial__number {
+      border: 2px solid #18a05f;
+      border-radius: 50%;
+      color: #18a05f;
+      width: 74px;
+      height: 74px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Lato";
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: bold;
+      position: absolute;
+      background-color: #fff;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%); }
+    .buy-soft .section-payment__tutorial__title {
+      background-color: #ececec;
+      margin: 0;
+      padding-left: 75px;
+      margin-left: 20px;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 24px; }
+    .buy-soft .section-payment__tutorial__text {
+      margin-left: 94px;
+      font-family: "Lato";
+      font-size: 15px;
+      line-height: 24px; }
+  .buy-soft .section-payment__register {
+    padding-left: 0; }
+    .buy-soft .section-payment__register form {
+      padding: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 10px; }
+      .buy-soft .section-payment__register form .form-label {
+        font-family: "Lato";
+        font-size: 20px;
+        line-height: 24px;
+        margin: 30px 0 10px; }
+      .buy-soft .section-payment__register form .form-control {
+        padding: 15px 20px;
+        margin-bottom: 20px; }
+      .buy-soft .section-payment__register form .form-check a {
+        display: block; }
+      .buy-soft .section-payment__register form .btn-payment {
+        background-color: #18a05f;
+        padding: 20px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 18px;
+        transition: all 0.3s ease-in-out; }
+        .buy-soft .section-payment__register form .btn-payment:hover {
+          background-color: #2aa3ff; }
+
+.buy-soft .section-thanhtoan {
+  background-color: #f9f9f9;
+  padding: 60px 0; }
+  .buy-soft .section-thanhtoan__container .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+    .buy-soft .section-thanhtoan__container .item img {
+      width: 110px;
+      height: 110px;
+      margin-right: 10px; }
+    .buy-soft .section-thanhtoan__container .item a {
+      display: block; }
+
+#modalPayment {
+  min-width: 500px; }
+  #modalPayment .times {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 9;
+    cursor: pointer; }
+  #modalPayment .modal-dialog {
+    max-width: none; }
+  #modalPayment .modal-body {
+    padding: 15px 80px;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400; }
+    #modalPayment .modal-body__wrap-image {
+      max-width: 120px;
+      max-height: 120px;
+      margin: 0 auto 25px; }
+    #modalPayment .modal-body img {
+      width: 100%;
+      height: 100%; }
+    #modalPayment .modal-body .title {
+      font-family: "Lato";
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #18a05f; }
+    #modalPayment .modal-body p {
+      margin: 0; }
+  @media screen and (max-width: 768px) {
+    #modalPayment .modal-body {
+      padding: 15px; } }

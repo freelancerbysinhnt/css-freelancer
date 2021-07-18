@@ -132,6 +132,7 @@ header.navbar {
       header.navbar .header-lg li > ul .header-div__submenu ul {
         display: flex;
         justify-content: center;
+        padding: 0px;
         margin-top: 1.5em; }
         header.navbar .header-lg li > ul .header-div__submenu ul li {
           list-style: none;
@@ -299,7 +300,8 @@ header.navbar {
 
 .btn-outline-white {
   border: 1px solid #fff;
-  color: #fff; }
+  color: #fff;
+  background-color: transparent; }
   .btn-outline-white:hover {
     color: #fafafa; }
 

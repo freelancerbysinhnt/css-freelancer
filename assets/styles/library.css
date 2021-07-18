@@ -69,7 +69,7 @@
 #library {
   background-color: #F9F9F9;
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   font-family: 'Lato', sans-serif; }
   #library h2 {
     font-family: 'Montserrat', sans-serif;
@@ -221,11 +221,6 @@
             position: absolute;
             right: 10px;
             top: 9px; }
-  #library .h2-center {
-    text-align: center; }
-    #library .h2-center:after {
-      left: 48%;
-      right: 48%; }
   #library .video-view-hot .col-post_other {
     background: #fff; }
     #library .video-view-hot .col-post_other .content {
@@ -315,3 +310,10 @@ a {
   background: none; }
   .breadcrumb li a {
     color: #262626; }
+
+.h2-center {
+  text-align: center;
+  position: relative; }
+  .h2-center:after {
+    left: 48%;
+    right: 48%; }
