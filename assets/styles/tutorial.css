@@ -1,5 +1,5 @@
 .list-box-tutorial .box-tutorial {
-  background-color: #ECECEC;
+  background-color: #ececec;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +11,8 @@
     color: #000;
     font-size: 15px;
     font-weight: 700;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-transform: uppercase; }
 
 .list-box-tutorial .hide {
   display: none; }
@@ -20,7 +21,7 @@
   display: none; }
 
 .list-box-tutorial.active .box-tutorial {
-  background-color: #18A05F; }
+  background-color: #18a05f; }
   .list-box-tutorial.active .box-tutorial .hide {
     display: block; }
   .list-box-tutorial.active .box-tutorial .show {
@@ -36,7 +37,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    margin-bottom: 10px; }
+    margin-bottom: 15px; }
     .list-box-tutorial.active ul li img {
       width: 20px;
       height: 20px; }
@@ -47,7 +48,7 @@
       font-weight: 400;
       padding-left: 15px; }
     .list-box-tutorial.active ul li:hover a {
-      color: #18A05F;
+      color: #18a05f;
       font-weight: 700; }
 
 .box-tutorial__right {
@@ -58,7 +59,7 @@
   .box-tutorial__right h1 {
     font-size: 24px;
     font-weight: 700;
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid #ececec;
     padding-bottom: 10px;
     text-align: left; }
   .box-tutorial__right p {
@@ -72,7 +73,7 @@
   .box-tutorial__right--title {
     display: flex;
     align-items: center;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     border-radius: 5px;
     padding: 15px;
     margin-top: 20px; }
@@ -94,13 +95,13 @@
         font-weight: 400; }
         .box-tutorial__right .list-tutorial ul li::before {
           content: "\2022";
-          color: #18A05F;
+          color: #18a05f;
           font-weight: bold;
           display: inline-block;
           width: 1em;
           margin-left: -1em; }
         .box-tutorial__right .list-tutorial ul li:hover {
-          color: #18A05F; }
+          color: #18a05f; }
   .box-tutorial__right__list-video__video {
     position: relative; }
     .box-tutorial__right__list-video__video img {
@@ -114,7 +115,7 @@
         left: 50%;
         margin: 0; }
   .box-tutorial__right .show-more-list {
-    color: #18A05F;
+    color: #18a05f;
     text-align: left;
     font-size: 15px;
     font-weight: 400; }
@@ -125,7 +126,7 @@
     font-size: 18px;
     font-weight: 700; }
   .box-tutorial__right .table thead {
-    background-color: #18A05F;
+    background-color: #18a05f;
     color: #fff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px; }
@@ -138,7 +139,7 @@
     font-size: 12px;
     font-weight: 400; }
   .box-tutorial__right__custom {
-    border-bottom: 1px solid #ECECEC; }
+    border-bottom: 1px solid #ececec; }
     .box-tutorial__right__custom h2 {
       font-size: 24px;
       font-weight: 700;

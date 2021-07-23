@@ -1,11 +1,11 @@
 .bg-footer {
-  background-color: #18A05F;
+  background-color: #18a05f;
   color: #fff; }
   .bg-footer h6 {
     font-size: 20px;
     position: relative; }
     .bg-footer h6::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 30px;
       height: 2px;
@@ -18,11 +18,13 @@
       .bg-footer .list-unstyled li a {
         color: #fff;
         font-weight: 400; }
+  .bg-footer .footer-line-height {
+    line-height: 36px; }
 
 .bg-copyright {
-  background-color: #18A05F;
+  background-color: #18a05f;
   color: #fff; }
   .bg-copyright p {
-    border-top: 1px solid #1AB394;
+    border-top: 1px solid #1ab394;
     padding-top: 27px;
     padding-bottom: 24px; }

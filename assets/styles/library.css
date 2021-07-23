@@ -5,7 +5,7 @@
     width: 100%; }
   .banner_library .caption-text {
     font-size: 2em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 900;
     position: absolute;
     left: 0;
@@ -15,8 +15,8 @@
     text-shadow: -1px 0 #888, 0 1px #888, 1px 0 #888, 0 -1px #888;
     text-align: center; }
   .banner_library .banner_search {
-    background-color: #1AB394;
-    font-family: 'Lato', sans-serif; }
+    background-color: #1ab394;
+    font-family: "Lato", sans-serif; }
     .banner_library .banner_search .row {
       min-height: 55px; }
     .banner_library .banner_search .banner-form {
@@ -34,7 +34,8 @@
           right: -1px;
           outline: none;
           box-shadow: none !important;
-          z-index: 9; }
+          z-index: 9;
+          background-color: #fff; }
           .banner_library .banner_search .banner-form form .btn img {
             width: 14px; }
         .banner_library .banner_search .banner-form form input {
@@ -67,22 +68,22 @@
             background-color: #43c5b0; }
 
 #library {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   padding-top: 4em;
   padding-bottom: 2em;
-  font-family: 'Lato', sans-serif; }
+  font-family: "Lato", sans-serif; }
   #library h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 1.3vw;
     position: relative;
     margin-bottom: 1.2em;
     padding-bottom: 10px; }
     #library h2:after {
-      content: '';
+      content: "";
       height: 2px;
       width: 50px;
-      background-color: #18A05F;
+      background-color: #18a05f;
       position: absolute;
       bottom: 0;
       left: 0; }
@@ -147,7 +148,7 @@
       padding: 2em; }
       #library .library-theme .div-theme button {
         width: 100%;
-        background-color: #ECECEC;
+        background-color: #ececec;
         border-radius: 10px;
         font-size: 15px;
         margin-bottom: 15px;
@@ -156,10 +157,8 @@
         width: 100%; }
         #library .library-theme .div-theme table tr td {
           padding: 10px 0px; }
-      #library .library-theme .div-theme .group-labrary button {
-        border-radius: 30px; }
   #library .library-form_search {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
     min-height: 100px;
     border-radius: 8px;
@@ -188,14 +187,14 @@
     width: 100%; }
     #library .library-table_info table thead th {
       padding-bottom: 15px;
-      border-bottom: 1px solid #267FFD; }
+      border-bottom: 1px solid #267ffd; }
     #library .library-table_info table tbody td {
       padding: 15px 0px; }
     #library .library-table_info table tbody tr {
       transition: all 0.2s ease-in-out;
       -webkit-transition: all 0.2s ease-in-out; }
       #library .library-table_info table tbody tr:hover {
-        background-color: #F2F9FF; }
+        background-color: #f2f9ff; }
   #library .library-document {
     margin-top: 2em; }
     #library .library-document h2 {
@@ -216,7 +215,7 @@
           transition: all 0.2s ease-in-out;
           -webkit-transition: all 0.2s ease-in-out; }
           #library .library-document .col-shawdow ol li:hover {
-            background-color: #F2F9FF; }
+            background-color: #f2f9ff; }
           #library .library-document .col-shawdow ol li img {
             position: absolute;
             right: 10px;
@@ -232,7 +231,7 @@
     position: relative;
     overflow: hidden; }
     #library .video-view-hot .thumnail:after {
-      content: '';
+      content: "";
       position: absolute;
       z-index: 9;
       background-color: rgba(0, 0, 0, 0.6);
@@ -277,7 +276,7 @@
 
 .btn.btn-youtube {
   min-width: 300px;
-  background: #EB0C0C;
+  background: #eb0c0c;
   color: #fff; }
 
 a {
@@ -299,7 +298,7 @@ a {
         padding: 5px 10px;
         color: #262626;
         font-size: 16px;
-        background: #F5F5F5; }
+        background: #f5f5f5; }
         .page ul li a.active {
           color: #fff;
           border-radius: 5px;

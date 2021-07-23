@@ -107,6 +107,18 @@
 @media screen and (max-width: 1000px) {
   .top-version > .row .mb-3 img {
     width: 100%; }
+  .content-typetop h3 {
+    font-size: 18px; }
+  .content-typetop h1 {
+    font-size: 22px; }
+  .slider .col-slider .col-md-6:last-child img {
+    position: inherit; }
+  .content-typetop ul {
+    display: inherit; }
+    .content-typetop ul:after {
+      display: none; }
+    .content-typetop ul .text {
+      margin-bottom: 20px; }
   .free-use {
     padding-bottom: 15px; }
   .list-post.container .row {
