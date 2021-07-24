@@ -78,3 +78,9 @@ $("#button_add").on("click", function (e) {
   var value = parseInt($(".book-page__quantity-input").val());
   $(".book-page__quantity-input").val(value + 1);
 });
+$('#help_content .group-left button').on('click', function () {
+  $('#help_content .group-left button').removeClass('btn-active');
+  $(this).addClass('btn-active');
+  $('#help_content .group-left .ul_soft').slideUp();
+  $(this).parent().find('.ul_soft').slideDown();
+});

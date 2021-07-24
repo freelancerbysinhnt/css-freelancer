@@ -2012,7 +2012,7 @@ header .nav-link {
   top: 14px;
   right: 4px; }
 
-.main-page button {
+.main-page-home button {
   border-radius: 30px !important;
   line-height: 20px !important;
   padding-top: 10px !important; }
@@ -2560,7 +2560,7 @@ header.navbar {
   .software-page__box-intro {
     align-items: center; }
     .software-page__box-intro h1 {
-      font-size: 36px;
+      font-size: 30px;
       font-weight: 700; }
     .software-page__box-intro h2 {
       font-size: 15px;
@@ -5032,6 +5032,183 @@ body {
   .user-ketcausoft .group-button {
     margin-bottom: 50px; }
 
+.software-page__content {
+  overflow-x: hidden; }
+
+.banner-huongdan {
+  position: relative;
+  min-height: 200px; }
+  .banner-huongdan .banner {
+    width: 100%; }
+  .banner-huongdan .text-caption {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center; }
+    .banner-huongdan .text-caption h1 {
+      font-size: 2.2em;
+      font-weight: 900;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 30px;
+      margin-bottom: 40px; }
+    .banner-huongdan .text-caption button {
+      margin: 0px 10px; }
+    .banner-huongdan .text-caption .btn-download {
+      color: #0c9051;
+      background: #fff; }
+    .banner-huongdan .text-caption .btn-contact {
+      background-color: transparent !important;
+      border: 1px solid #fff; }
+
+#help_content {
+  font-family: "Lato", sans-serif;
+  margin: 2em 0px; }
+  #help_content .box-shadow {
+    background-color: #fff;
+    box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
+    border-radius: 8px; }
+  #help_content .group-left {
+    margin-bottom: 15px; }
+    #help_content .group-left button {
+      padding: 12px 15px;
+      font-weight: 600;
+      font-size: 14px;
+      position: relative; }
+      #help_content .group-left button img {
+        position: absolute;
+        right: 15px; }
+      #help_content .group-left button.btn-active {
+        color: #FFF;
+        background: #18A05F; }
+        #help_content .group-left button.btn-active img {
+          display: none; }
+    #help_content .group-left .ul_soft {
+      display: none; }
+      #help_content .group-left .ul_soft ul {
+        padding: 15px 0px;
+        margin: 0px; }
+        #help_content .group-left .ul_soft ul li {
+          list-style: none; }
+          #help_content .group-left .ul_soft ul li img {
+            margin-right: 10px; }
+          #help_content .group-left .ul_soft ul li a {
+            display: flex;
+            align-items: center;
+            padding: 5px 0px;
+            width: 100%;
+            color: #707070;
+            transition: all 0.4s ease-in-out;
+            -webkit-transition: all 0.4s ease-in-out; }
+            #help_content .group-left .ul_soft ul li a:hover {
+              color: #18A05F; }
+  #help_content .box-content {
+    padding: 20px; }
+    #help_content .box-content h1 {
+      font-size: 1.04vw;
+      font-weight: 600; }
+    #help_content .box-content strong {
+      font-size: 17px;
+      padding-bottom: 5px;
+      display: inline-block; }
+    #help_content .box-content .image {
+      margin-bottom: 3em; }
+    #help_content .box-content .clip {
+      font-weight: 600;
+      color: #262626; }
+    #help_content .box-content .text-origan {
+      font-weight: 600;
+      color: #ff5722; }
+  #help_content .conent-other {
+    margin-top: 2em;
+    background-color: #fff;
+    box-shadow: 0 1px 1.2px rgba(145, 145, 145, 0.034), 0 1px 2.3px rgba(116, 116, 116, 0.048), 0 1px 5px rgba(121, 121, 121, 0.06), 0 1.3px 7.9px rgba(97, 97, 97, 0.072), 0 2.8px 3.4px rgba(170, 170, 170, 0.086), 0 2px 5px rgba(122, 122, 122, 0.02);
+    border-radius: 8px;
+    overflow: hidden; }
+    #help_content .conent-other h1 {
+      font-size: 1.04vw;
+      font-weight: 600;
+      color: #fff;
+      background-color: #18A05F;
+      padding: 20px;
+      margin-bottom: 0px; }
+    #help_content .conent-other .content ul {
+      padding: 0px;
+      margin: 0px; }
+      #help_content .conent-other .content ul li {
+        list-style: none;
+        border-bottom: 1px solid #ececec; }
+        #help_content .conent-other .content ul li a {
+          display: inline-block;
+          width: 100%;
+          padding: 10px;
+          color: #262626;
+          transition: all 0.3s ease-in-out;
+          -webkit-transition: all 0.3s ease-in-out; }
+          #help_content .conent-other .content ul li a:hover {
+            color: #18A05F; }
+  #help_content .title_stle {
+    padding: 12px 20px;
+    background: #efefef;
+    margin-bottom: 20px;
+    font-weight: 600; }
+    #help_content .title_stle img {
+      padding-right: 10px; }
+  #help_content .content_text ul {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 12px; }
+    #help_content .content_text ul li {
+      list-style: none;
+      position: relative; }
+      #help_content .content_text ul li a {
+        display: inline-block;
+        padding: 4px 10px;
+        color: #262626;
+        padding-left: 20px;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        width: 100%; }
+        #help_content .content_text ul li a:hover {
+          color: #18A05F; }
+      #help_content .content_text ul li:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 11px;
+        width: 10px;
+        height: 10px;
+        background: url("../images/icon/dot.svg") center center no-repeat;
+        border-radius: 50%; }
+  #help_content .content-video {
+    margin-bottom: 20px; }
+    #help_content .content-video .col-md-4 .content {
+      border-radius: 10px;
+      border: 1px solid #ececec;
+      overflow: hidden;
+      position: relative; }
+      #help_content .content-video .col-md-4 .content:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        bottom: 0;
+        background-image: url("../images/icon/icon_youtube.svg");
+        background-size: 25px 25px;
+        background-repeat: no-repeat;
+        background-position: center center; }
+      #help_content .content-video .col-md-4 .content:hover:after {
+        background-color: rgba(0, 0, 0, 0.2); }
+      #help_content .content-video .col-md-4 .content img {
+        width: 100%; }
+  #help_content .click-other {
+    color: #18A05F; }
+
 .menu_mobile_header {
   display: none; }
   .menu_mobile_header .box-wp {
@@ -5139,6 +5316,17 @@ body {
     padding-top: 4vw; } }
 
 @media screen and (max-width: 1000px) {
+  #help_content .box-content h1 {
+    font-size: 16px; }
+  .banner-huongdan .banner, .banner-huongdan .banner img {
+    height: 230px; }
+  .banner-huongdan .text-caption h1 {
+    font-size: 20px;
+    margin-bottom: 30px; }
+  #help_content .conent-other h1 {
+    font-size: 16px; }
+  #help_content .title_stle {
+    font-size: 14px; }
   .top-version > .row .mb-3 img {
     width: 100%; }
   .content-typetop h3 {

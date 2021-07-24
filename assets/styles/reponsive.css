@@ -105,6 +105,17 @@
     padding-top: 4vw; } }
 
 @media screen and (max-width: 1000px) {
+  #help_content .box-content h1 {
+    font-size: 16px; }
+  .banner-huongdan .banner, .banner-huongdan .banner img {
+    height: 230px; }
+  .banner-huongdan .text-caption h1 {
+    font-size: 20px;
+    margin-bottom: 30px; }
+  #help_content .conent-other h1 {
+    font-size: 16px; }
+  #help_content .title_stle {
+    font-size: 14px; }
   .top-version > .row .mb-3 img {
     width: 100%; }
   .content-typetop h3 {
