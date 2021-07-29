@@ -450,3 +450,37 @@ header.navbar {
   display: inline-block;
   text-align: left;
   vertical-align: middle; }
+
+header.navbar .header-lg .nav-link {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out; }
+  header.navbar .header-lg .nav-link:hover {
+    text-decoration: underline !important; }
+
+.s2 {
+  display: none; }
+
+.slider .btn-white:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #ffff; }
+  .slider .btn-white:hover .s2 {
+    display: inline; }
+  .slider .btn-white:hover .s1 {
+    display: none; }
+
+.slider .btn-outline-white:hover {
+  background-color: #fff;
+  color: #18A05F; }
+  .slider .btn-outline-white:hover .s2 {
+    display: inline; }
+  .slider .btn-outline-white:hover .s1 {
+    display: none; }
+
+.color-custome {
+  color: #18A05F;
+  min-width: 125px;
+  justify-content: center; }
+
+.color-custom {
+  color: #18A05F; }
