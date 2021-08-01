@@ -4972,7 +4972,7 @@ body {
       margin-right: 15px; }
   .user-ketcausoft .section-clip-thematic {
     background-color: #fff;
-    padding: 45px 15px 60px;
+    padding: 15px 15px 20px;
     border-radius: 10px;
     margin-bottom: 60px; }
     .user-ketcausoft .section-clip-thematic__header {
@@ -4983,7 +4983,7 @@ body {
       border-bottom: 1px solid #ececec; }
     .user-ketcausoft .section-clip-thematic__title {
       font-family: "Lato";
-      font-size: 24px;
+      font-size: 20px;
       line-height: 35px;
       font-weight: bold;
       text-transform: uppercase; }
@@ -5290,9 +5290,12 @@ body {
 .software-page__content__box:hover {
   box-shadow: 0px 2px 6px 4px rgba(111, 107, 107, 0.24);
   transform: translateY(-3px);
-  -webkit-transform: translateY(-3px); }
+  -webkit-transform: translateY(-3px);
+  background-color: #f5f5f5; }
   .software-page__content__box:hover .more-detail {
     display: inline-block; }
+  .software-page__content__box:hover .more {
+    display: none; }
 
 .software-page__content h2 {
   line-height: 25px; }
@@ -5398,6 +5401,52 @@ body {
     top: 0;
     right: 30px;
     width: 50px; }
+
+.software-page__content .box-free__detail img.root_more {
+  display: none; }
+
+.software-page__content .box-free__detail {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out; }
+
+.software-page__content .box-free__detail:hover {
+  background-color: #18a05f;
+  color: #fff; }
+  .software-page__content .box-free__detail:hover .root_more {
+    display: inline-block; }
+  .software-page__content .box-free__detail:hover .root {
+    display: none; }
+
+header.navbar .header-lg .user_login img.premium {
+  width: 17px;
+  position: absolute;
+  bottom: 0;
+  right: -7px; }
+
+.user-ketcausoft .section-clip-thematic__more a {
+  margin-top: -11px;
+  display: inherit; }
+  .user-ketcausoft .section-clip-thematic__more a img {
+    width: 6px; }
+
+.section_change .thum img {
+  width: 100%; }
+
+.section_change .col-md-4 {
+  margin-bottom: 20px; }
+
+.section_change .text {
+  margin-top: 15px; }
+  .section_change .text h3 {
+    font-size: 14px;
+    font-weight: normal; }
+    .section_change .text h3 a {
+      color: #212529;
+      transition: all 0.2s ease-in-out;
+      text-transform: uppercase;
+      -webkit-transition: all 0.2s ease-in-out; }
+      .section_change .text h3 a:hover {
+        color: #18a05f; }
 
 .menu_mobile_header {
   display: none; }
