@@ -277,12 +277,17 @@ header.navbar {
   border-color: #2ea05f; }
 
 .btn-outline-success:hover {
-  background-color: #2ea05f;
-  border-color: #2ea05f; }
+  background-color: #2ea05f !important;
+  border-color: #2ea05f !important; }
+
+.btn-success-outline:hover {
+  background-color: #2ea05f !important;
+  border-color: #2ea05f !important;
+  color: #fff; }
 
 .btn-success:hover {
-  background-color: #0c9051;
-  border-color: #0c9051; }
+  background-color: #0c9051 !important;
+  border-color: #0c9051 !important; }
 
 .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active, .show > .btn-outline-success.dropdown-toggle {
   background-color: #0c9051;
@@ -484,3 +489,9 @@ header.navbar .header-lg .nav-link {
 
 .color-custom {
   color: #18A05F; }
+
+.user_login .primeum {
+  width: 17px !important;
+  position: absolute;
+  bottom: 0;
+  right: -7px; }
