@@ -113,7 +113,6 @@ header.navbar {
     opacity: 0;
     z-index: -1;
     background: #fff;
-    display: flex;
     justify-content: center; }
     header.navbar .header-lg li > ul .nav-thu_vien:after {
       left: 49%; }
@@ -186,7 +185,7 @@ header.navbar {
   header.navbar .header-lg li:hover ul {
     z-index: 19;
     opacity: 1;
-    display: block;
+    display: flex;
     top: 86px; }
   header.navbar .header-lg .li-more_image {
     position: relative; }
@@ -215,7 +214,7 @@ header.navbar {
     header.navbar .header-lg .li-more_image:hover ul {
       top: 63px; }
   header.navbar .header-lg .nav-link {
-    padding: 0.5rem 1em;
+    padding: 1.85rem 1em;
     font-size: 14px; }
   header.navbar .header-lg .navbar-nav-scroll {
     margin-right: 80px; }

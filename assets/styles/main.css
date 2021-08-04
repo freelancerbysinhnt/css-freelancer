@@ -530,7 +530,7 @@ header .nav-link {
   position: absolute;
   width: 5px;
   transform: rotate(-90deg);
-  top: 14px;
+  top: 2.5em;
   right: 4px; }
 
 .main-page-home button {

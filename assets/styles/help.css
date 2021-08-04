@@ -197,7 +197,7 @@
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out; }
   .bg-footer a:hover {
-    text-decoration: underline !important; }
+    color: #9CDFBF !important; }
 
 .user_login span {
   position: relative;
@@ -388,11 +388,11 @@
     .section-software__box__right__item p:hover a, .section-software__box__right__item a:hover a {
       color: #18a05f; }
 
-.book-page__head a, .book-page__card__body li a, .book-page__table-content__item a, .book-page__item a {
+.book-page__head a, .book-page__card__body li a, .book-page__table-content__item a, .book-page__item a, .section-update .list-post__item__right h2 a {
   color: #212529;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out; }
-  .book-page__head a:hover, .book-page__card__body li a:hover, .book-page__table-content__item a:hover, .book-page__item a:hover {
+  .book-page__head a:hover, .book-page__card__body li a:hover, .book-page__table-content__item a:hover, .book-page__item a:hover, .section-update .list-post__item__right h2 a:hover {
     color: #18a05f; }
 
 .book-page__card__body li a {
@@ -411,6 +411,13 @@
   font-weight: bold;
   margin-bottom: 20px; }
 
+.section-update .list-post__item {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out; }
+  .section-update .list-post__item:hover {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px); }
+
 .book-page__ref-title {
   font-size: 23px; }
 
@@ -427,5 +434,157 @@
 .section-feature .group-button button:nth-of-type(2):hover {
   background-color: #c3421f; }
 
+.section-feature .group-button button.color-custom .img_hover {
+  display: none; }
+
 .section-feature .group-button button.color-custom:hover {
-  background-color: #fafafa; }
+  background-color: #18a05f;
+  color: #fff; }
+  .section-feature .group-button button.color-custom:hover .img {
+    display: none; }
+  .section-feature .group-button button.color-custom:hover .img_hover {
+    display: inline-block; }
+
+.section-feature__item__list:nth-of-type(2n) {
+  padding-left: 15px !important; }
+
+.section-feature__item__list .group-button button:last-child:hover {
+  background-color: #0c9051 !important;
+  border-color: #0c9051 !important; }
+
+.footer-icon .curent_hover {
+  display: none; }
+
+.footer-icon a:hover .curent {
+  display: none; }
+
+.footer-icon a:hover .curent_hover {
+  display: inline-block; }
+
+.banner_daotao_sub .context_datao .btn-sell .img_hover {
+  display: none; }
+
+.banner_daotao_sub .context_datao .btn-sell:hover {
+  background: transparent;
+  border: 1px solid #FD8100; }
+  .banner_daotao_sub .context_datao .btn-sell:hover .img {
+    display: none; }
+  .banner_daotao_sub .context_datao .btn-sell:hover .img_hover {
+    display: inline-block; }
+
+.software-page .group-button .button-hotline {
+  display: flex;
+  align-items: center;
+  border: 1px solid #fd8100 !important; }
+  .software-page .group-button .button-hotline:hover {
+    background: #df7504 !important; }
+
+.software-page .group-button button.button-zalo:last-child {
+  border: 1px solid #2aa3ff !important;
+  background-color: #267ffd !important; }
+  .software-page .group-button button.button-zalo:last-child:hover {
+    background: #1061d1 !important; }
+
+.buy-soft .section-card__hotline button {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out; }
+  .buy-soft .section-card__hotline button:hover {
+    color: #fff;
+    background-color: #147b4a; }
+
+.buy-soft .section-card__button--online:hover {
+  background-color: #0062cc; }
+
+.section-card__button--code:hover {
+  background-color: #d4a010 !important; }
+
+.section-card__button--infinity:hover {
+  background-color: #d26b00; }
+
+.user-manual__left h3, .software-page__content h1 {
+  font-size: 25px; }
+
+.section-feature__item__list__active p {
+  margin-bottom: 10px; }
+
+.section-feature__item__list__box {
+  padding: 15px 25px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  cursor: pointer; }
+  .section-feature__item__list__box:hover {
+    background-color: #18a05f;
+    color: #fff; }
+
+.software-page .group-button button.btn-success .img_hover {
+  display: none; }
+
+.software-page .group-button button.btn-success:hover {
+  background: #fff !important;
+  color: #18a05f !important; }
+  .software-page .group-button button.btn-success:hover .img {
+    display: none; }
+  .software-page .group-button button.btn-success:hover .img_hover {
+    display: inline-block; }
+
+.user-manual__left ul li a {
+  display: inline-block;
+  width: 100%; }
+  .user-manual__left ul li a:hover {
+    color: #18a05f !important; }
+
+.software-page .group-button button.color-custom:last-child {
+  background: #fff !important;
+  border: 1px solid #18a05f !important; }
+  .software-page .group-button button.color-custom:last-child .img_hover {
+    display: none; }
+  .software-page .group-button button.color-custom:last-child:hover {
+    background: #18a05f !important;
+    color: #fff; }
+    .software-page .group-button button.color-custom:last-child:hover .img {
+      display: none; }
+    .software-page .group-button button.color-custom:last-child:hover .img_hover {
+      display: inline-block; }
+
+.btn.first {
+  border: 1px solid #18a05f !important; }
+  .btn.first .img_hover {
+    display: none; }
+  .btn.first:hover {
+    background: #fff; }
+    .btn.first:hover p {
+      color: #18a05f !important; }
+    .btn.first:hover .img {
+      display: none; }
+    .btn.first:hover .img_hover {
+      display: inline-block; }
+
+.btn.seconse .img_hover {
+  display: none; }
+
+.btn.seconse:hover {
+  background: #18a05f !important; }
+  .btn.seconse:hover p {
+    color: #fff !important; }
+  .btn.seconse:hover .img {
+    display: none; }
+  .btn.seconse:hover .img_hover {
+    display: inline-block; }
+
+.box-question-examination .btn-success:hover {
+  background: #176529 !important; }
+
+.group-bitt .btn-info:hover {
+  background-color: #117a8b !important; }
+
+.group-bitt .btn-success:hover {
+  background: #176529 !important; }
+
+@media screen and (min-width: 1000px) {
+  header.navbar {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0; }
+  .menu_mobile {
+    padding-top: 86px; } }
