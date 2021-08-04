@@ -84,3 +84,19 @@ $('#help_content .group-left button').on('click', function () {
   $('#help_content .group-left .ul_soft').slideUp();
   $(this).parent().find('.ul_soft').slideDown();
 });
+$('.header-lg .ul_action').on('click', function () {
+  $('.header-lg .ul_action').parent().find('ul').hide();
+
+  if ($(this).hasClass('empty')) {
+    $(this).removeClass('empty');
+    $(this).parent().find('ul').hide();
+  } else {
+    $(this).addClass('empty');
+
+    if ($(this).hasClass('bot')) {
+      $(this).parent().find('ul').show();
+    } else {
+      $(this).parent().find('ul').css('display', 'flex');
+    }
+  }
+});

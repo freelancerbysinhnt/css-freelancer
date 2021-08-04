@@ -606,3 +606,12 @@
 
 .mt--5 {
   margin-top: -5px; }
+
+header.navbar .header-lg .nav-link .img_hover {
+  display: none; }
+
+header.navbar .header-lg .nav-link:hover .img {
+  display: none; }
+
+header.navbar .header-lg .nav-link:hover .img_hover {
+  display: inline-block; }
