@@ -508,13 +508,19 @@
   margin-bottom: 10px; }
 
 .section-feature__item__list__box {
-  padding: 15px 25px;
+  padding: 35px 25px;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   cursor: pointer; }
   .section-feature__item__list__box:hover {
     background-color: #18a05f;
     color: #fff; }
+
+.examination-content .group-button button {
+  border-radius: 30px;
+  min-width: 131px;
+  text-align: center;
+  justify-content: center; }
 
 .software-page .group-button button.btn-success .img_hover {
   display: none; }
@@ -588,3 +594,14 @@
     right: 0; }
   .menu_mobile {
     padding-top: 86px; } }
+
+.book-page__search input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px; }
+
+.book-page__search button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px; }
+
+.mt--5 {
+  margin-top: -5px; }
