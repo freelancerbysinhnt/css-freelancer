@@ -518,6 +518,8 @@
 
 .examination-content .group-button button {
   border-radius: 30px;
+  min-width: 131px;
+  padding: 7px 18px;
   text-align: center;
   justify-content: center; }
 
