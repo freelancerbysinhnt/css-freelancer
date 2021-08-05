@@ -2215,9 +2215,9 @@ header.navbar {
     header.navbar .header-lg li > ul .nav-thu_vien:after {
       left: 49%; }
     header.navbar .header-lg li > ul .nav-tra_cuu:after {
-      left: 44%; }
+      left: 45%; }
     header.navbar .header-lg li > ul .nav-phan_mem:after {
-      left: 19%; }
+      left: 26%; }
     header.navbar .header-lg li > ul .header-div__submenu {
       position: relative;
       width: 100%;
@@ -2555,7 +2555,7 @@ header.navbar .header-lg .nav-link {
   -webkit-transition: all 0.4s ease-in-out; }
   header.navbar .header-lg .nav-link:hover {
     text-shadow: 1px 1px 2px #777777, 0 0 4px #18a05f, 0 0 1px #fd8100;
-    color: #fd8100; }
+    color: #9CDFBF; }
 
 .s2 {
   display: none; }
